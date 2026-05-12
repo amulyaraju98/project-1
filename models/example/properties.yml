@@ -1,0 +1,12 @@
+sources:
+  - name: "Amulya_sources"
+    database: db_ecom
+    schema: sc_ecom
+    tables:
+      - name: Raw_users
+      - name: Raw_country
+
+models:
+  - name: 'src_users'
+    config:
+      materialized: 'table'
