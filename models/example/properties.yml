@@ -5,8 +5,15 @@ sources:
     tables:
       - name: Raw_users
       - name: Raw_country
+      - name: Raw_Sales
+      - name: shipping
+    
 
 models:
   - name: 'src_users'
     config:
       materialized: 'table'
+  - name: 'learning_macro'
+    config:
+      materialized: 'table'
+
