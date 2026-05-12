@@ -1,0 +1,1 @@
+select * from {{ source ('Amulya_sources','Raw_users')}}
