@@ -1,5 +1,5 @@
-{%- set var1= "Amulya" -%}
-{{var1}}
+-- {%- set var1= "Amulya" -%}
+-- {{var1}}
 
 {# amulya #}
 
