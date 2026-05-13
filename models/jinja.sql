@@ -3,12 +3,12 @@
 
 {# amulya #}
 
-{% if i==1 %}
-    {{"I'm in first block"}}
-{% else %}
-    {{"I'm in second block"}}
-{% endif %}
+-- {% if i==1 %}
+--     {{"I'm in first block"}}
+-- {% else %}
+--     {{"I'm in second block"}}
+-- {% endif %}
 
-{%- for i in [1,2,3] -%}
-{{i}}
-{% endfor %}
+-- {%- for i in [1,2,3] -%}
+-- {{i}}
+-- {% endfor %}
