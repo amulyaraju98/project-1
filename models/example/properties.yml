@@ -17,4 +17,6 @@ models:
   - name: 'learning_macro'
     config:
       materialized: 'table'
-
+  - name: 'new_currency'
+    config:
+      materialized: 'table'
