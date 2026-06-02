@@ -12,3 +12,4 @@
 {% elif currency=='Par' %}
 {{value/20}}
 {% endif %}
+{% endmacro %}
