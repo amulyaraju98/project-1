@@ -4,3 +4,4 @@ seeds:
          full_refresh: true
          column_types:
            ID: varchar(5)
+     - name: exchange_rates
