@@ -2,13 +2,13 @@
 -- {% for i in  currency_conversion %}
 -- {{case when {{i}} }}
 
--- {% macro currency_converter(currency, value) %}
--- {% if currency=='Rupees' %}
--- {{value}}
--- {% if currency=='Yen' %}
--- {{value/80}}
--- {% if currency=='Dollars' %}
--- {{value/62}}
--- {% if currency=='Par' %}
--- {{value/20}}
--- {% endmacro %}
+{% macro currency_converter(currency, value) %}
+{% if currency=='Rupees' %}
+{{value}}
+{% elif currency=='Yen' %}
+{{value/80}}
+{% elif currency=='Dollars' %}
+{{value/62}}
+{% elif currency=='Par' %}
+{{value/20}}
+{% endif %}
